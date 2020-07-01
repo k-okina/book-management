@@ -10909,10 +10909,12 @@ rx@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/rx/-/rx-4.1.0.tgz#a5f13ff79ef3b740fe30aa803fb09f98805d4782"
 
-rxfire@3.3.6:
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/rxfire/-/rxfire-3.3.6.tgz#edae2060b9fac993480cdd48ddcd6883c803991d"
-  integrity sha512-xLvxvHvCJWu4GxzQjHJzqbtXOtffkK6dgdzHMk/rsqd0z/biu7DaMzvkSvD3XXEDp3hvWwFq+U6USDhH0kPemQ==
+rxfire@3.13.5:
+  version "3.13.5"
+  resolved "https://registry.yarnpkg.com/rxfire/-/rxfire-3.13.5.tgz#465a88561b1c139a383216efc2e156f85143fa19"
+  integrity sha512-NyGc9syGjx5W0I5L6c4YioXbjrJTXMSo74RWTiozunOAo04sD+LM/+vQ7HWk+XUZISC/Nk8s/NKo6+mkT0ov6w==
+  dependencies:
+    tslib "^1.11.1"
 
 rxjs@6.4.0, rxjs@^6.4.0:
   version "6.4.0"
@@ -12056,6 +12058,11 @@ tsconfig@^7.0.0:
 tslib@1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
+
+tslib@^1.11.1:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
+  integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
 
 tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.3"
